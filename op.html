@@ -1,0 +1,117 @@
+<!DOTYPE html>
+<html lang="en">
+<head>
+<title>Operator</title>
+<meta charset="UTF-8">
+<script leguages="Javascript" type="text/Javascript">
+   
+var a = 5;
+var b = 3;
+
+//menggunakan operator penjumlahan
+var c = a + b;
+console.log(c);
+
+//operator aritmatika
+
+    var a = 15;
+    var b = 4;
+    var c = 0;
+    
+//pengurangan
+    c = a - b;
+    document.write("${a} - {b} = ${c}<br/>");
+    
+//perkalian
+    c = a * b;
+    document.write("${a} * {b} = ${c}<br/>");
+    
+//pemangkatan
+    c = a ** b;
+    document.write("${a} ** {b} = ${c}<br/>");
+
+//pembagian
+    c = a / b;
+    document.write('"{a} / {b} = ${c}<br/>");
+    
+//modulo
+    c = a % b;
+    document.write("${a} % {b} = ${c}<br/>");
+    
+//op pengabungan teks
+    var a = "10" + "2";
+// hasilnya 102
+
+//operator perbandingan
+    var aku = 20;
+    var kamu = 19;
+    
+//sama dengan
+    var hasil = aku == kamu;
+    document.write("${aku} == ${kamu} = ${hasil}<br/>");
+//lebih besar
+    var hasil = aku > kamu;
+    document.write('${aku} > ${kamu} = ${hasil}<br/>');
+//lebih besar sama dengan
+    var hasil = aku >= kamu;
+    document.write("${aku} >= ${kamu} = ${hasil}<br/>");
+//lebih kecil
+    var hasil = aku < kamu;
+    document.write("${aku} < ${kamu} = ${hasil}<br/>");
+//lebih kecil sama dengan
+    var hasil = aku <= kamu;
+    document.write("${aku} <= ${kamu} = ${hasil}<br/>");
+//tidak sama dengan
+    var hasil = aku != kamu;
+    document.write("${aku} != ${kamu} = ${hasil}<br/>");
+
+//operator logika
+    var aku = 20;
+    var kamu = 19;
+
+    var benar = aku > kamu;
+    var salah = aku < kamu;
+
+// operator && (and)
+    var hasil = benar && salah;
+    document.write("${benar} && ${salah} = ${hasil}<br/>");
+        
+// operator || (or)
+    var hasil = benar || salah;
+    document.write("${benar} || ${salah} = ${hasil}<br/>");
+        
+// operator ! (not)
+    var hasil = !benar
+    document.write("!${benar} = ${hasil}<br/>");
+        
+//operator bitwise
+    var x = 4;
+    var y = 3;
+//operator bitwise and
+    var hasil = x & y;
+    document.write("${x} & ${y} = ${hasil}<br/>");
+//operator bitwise for
+    var hasil = x | y;
+    document.write("1${x} | ${y} = ${hasil}<br/>");
+//operator bitwise xor
+    var hasil = x ^ y;
+    document.write("${x} ^ ${y} = ${hasil}<br/>");
+//operator negasi
+    var hasil = ~x;
+    document.write("~{x} = ${hasil}<br/>");
+//operator bitwise right shift >>
+    var hasil = x >> y;
+    document.write("${x} >> ${y} =${hasil}");
+//operator bitwise right shift
+    var hasil = x << y;
+    document.write("${x} << ${y} =${hasil}");
+//operator bitwise right shift (unsiged)
+    var hasil = x >>> y;
+    document.write("${x} >>> ${y} =${hasil}");
+</script>
+    
+</head>
+<body>
+    <pre id ="result"> </pre>
+</body>
+</html>
